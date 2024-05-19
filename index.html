@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-project</title>
+    <link rel="stylesheet" href="proj.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="jerry">
+      <h1>JERRYson weather</h1>
+    </div>
+    <form id="fomm">
+      <div id="head">
+        <input
+          type="search"
+          id="search-them"
+          placeholder="search a city.."
+          autofocus
+          autocomplete="off"
+          class="search-me"
+        />
+        <input
+          type="submit"
+          id="submit-sub"
+          value="search"
+          class="submit-search"
+        />
+      </div>
+    </form>
+
+    <div class="h1">
+      <div>
+        <h2 id="h4"></h2>
+      </div>
+    </div>
+    <main class="man">
+      <div class="parag" id="parag-p">
+        <p>
+          <span id="date-line"
+            ><span class="spann"> Tuesday</span>
+            <span class="time">22:42 </span></span
+          >
+          , <span class="cloud"> overcast cloud</span> <br />
+          Humidity:<span class="humi"> 88% </span>, Wind:<span class="wini">
+            6.69km/h
+          </span>
+        </p>
+      </div>
+      <div class="ano-statt">
+        <div id="iconsurl"></div>
+
+        <div class="casst">
+          <div class="cloud-pi" id="cloud.pic"></div>
+          <div class="number" id="number-degree"><strong></strong></div>
+          <div class="degree-ce" id="degree-de">°c</div>
+        </div>
+      </div>
+    </main>
+    <div class="forcast" id="forcast"></div>
+
+    <script src="proj.js"></script>
+  </body>
+</html>
